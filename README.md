@@ -59,17 +59,55 @@ flowchart LR
 - **Observations:** Hindsight consolidates repeated behaviour (for example, "pays about 20 days late") into per-client observations that refine as new evidence arrives.
 - **Feedback loop:** "went well" and "pushback" outcomes are retained, so future drafts learn what works for that client.
 
-## Getting started *(planned)*
+## Getting started
 
 You will need a Hindsight Cloud API key and a Groq API key.
 
 ```bash
 git clone https://github.com/<your-username>/rapport-client-memory.git
 cd rapport-client-memory
-cp .env.example .env    # then fill in HINDSIGHT_API_KEY and GROQ_API_KEY
+cp .env.example .env    # fill in HINDSIGHT_API_KEY and GROQ_API_KEY
 ```
 
-Backend, frontend and seed-script commands will be added here once the first build lands.
+### Install dependencies
+
+```bash
+pip install -e .
+# or
+pip install -r requirements.txt  # or install directly from pyproject.toml
+```
+
+### Seed synthetic client memory
+
+To retain the 6 synthetic clients and ~40 interactions into your Hindsight memory bank:
+
+```bash
+python scripts/seed.py
+```
+
+### Run live smoke test (optional)
+
+To verify live Hindsight retention and strict client tag isolation:
+
+```bash
+python scripts/smoke_hindsight.py
+```
+
+### Run backend server
+
+Start the FastAPI backend server:
+
+```bash
+uvicorn backend.app.main:app --reload --port 8000
+```
+
+### Run tests
+
+Run offline test suite with pytest:
+
+```bash
+pytest
+```
 
 ## Demo data
 

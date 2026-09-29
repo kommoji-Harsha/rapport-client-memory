@@ -1,0 +1,417 @@
+[
+  {
+    "id": "int-c1-01",
+    "client_id": "c1",
+    "channel": "email",
+    "timestamp": "2024-06-02T10:00:00Z",
+    "summary": "Project Kickoff and Communication Protocol",
+    "content": "Hi David, thanks for joining the kickoff! As discussed, we are starting the backend API migration. Just a quick reminder: our team works best async via email or Slack. If we ever need sync alignment, please schedule calls after 11:00 AM EST, as our morning engineering focus time runs until 11:00 AM.",
+    "context": "Project kickoff discussion regarding scheduling and async preferences for Apex Dynamics.",
+    "metadata": { "type": "kickoff", "author": "David Vance" }
+  },
+  {
+    "id": "int-c1-02",
+    "client_id": "c1",
+    "channel": "email",
+    "timestamp": "2024-07-05T14:30:00Z",
+    "summary": "Milestone 1 Architecture Sign-off",
+    "content": "David, attached is the Milestone 1 system architecture document. Please review async when you have a moment.",
+    "context": "Submission of Milestone 1 architecture for Apex Dynamics.",
+    "metadata": { "type": "milestone", "milestone": "1" }
+  },
+  {
+    "id": "int-c1-03",
+    "client_id": "c1",
+    "channel": "email",
+    "timestamp": "2024-07-06T11:15:00Z",
+    "summary": "Architecture Approval and Async Confirmation",
+    "content": "Thanks! The architecture doc looks solid. Appreciate keeping this async—I was able to review between code reviews without interrupting my morning deep work.",
+    "context": "Client approval of Milestone 1 with praise for async workflow.",
+    "metadata": { "type": "approval" }
+  },
+  {
+    "id": "int-c1-04",
+    "client_id": "c1",
+    "channel": "call_notes",
+    "timestamp": "2024-08-12T11:30:00Z",
+    "summary": "Sync Review Call Notes",
+    "content": "Call with David Vance held at 11:30 AM EST. Discussed database indexing strategies. David explicitly reiterated: 'Scheduling this at 11:30 AM was perfect. Please never book anything before 11:00 AM.'",
+    "context": "Notes from engineering sync call with Apex Dynamics.",
+    "metadata": { "type": "call_notes" }
+  },
+  {
+    "id": "int-c1-05",
+    "client_id": "c1",
+    "channel": "email",
+    "timestamp": "2024-09-20T08:45:00Z",
+    "summary": "Urgent Meeting Request Received",
+    "content": "David sent an email at 8:45 AM: 'Hey, quick question about the Redis caching layer. Can we jump on a huddle right now at 9:00 AM?' Replied offering an 11:15 AM slot or answering via email async.",
+    "context": "Handling morning call request according to client timing preferences.",
+    "metadata": { "type": "scheduling" }
+  },
+  {
+    "id": "int-c1-06",
+    "client_id": "c1",
+    "channel": "email",
+    "timestamp": "2024-09-20T11:20:00Z",
+    "summary": "Async Clarification on Caching",
+    "content": "David replied: 'Good call on holding until 11:15 AM. Actually, answering in email was enough. Here are my thoughts on TTL configuration.'",
+    "context": "Async resolution of technical query for Apex Dynamics.",
+    "metadata": { "type": "technical_query" }
+  },
+  {
+    "id": "int-c1-07",
+    "client_id": "c1",
+    "channel": "email",
+    "timestamp": "2024-11-10T13:00:00Z",
+    "summary": "Phase 2 Planning and Preference Reiteration",
+    "content": "Phase 2 scope proposed. David requested: 'Send over the proposal via email. As usual, no morning meetings needed unless critical.'",
+    "context": "Phase 2 proposal request and communication preference confirmation.",
+    "metadata": { "type": "proposal" }
+  },
+
+  {
+    "id": "int-c2-01",
+    "client_id": "c2",
+    "channel": "email",
+    "timestamp": "2024-06-15T10:00:00Z",
+    "summary": "Contract Execution and Payment Terms",
+    "content": "Welcome aboard Dr. Thorne and Beacon Health. Master Services Agreement executed with standard Net 30 payment terms for monthly retainers.",
+    "context": "Contract setup with Beacon Health establishing Net 30 payment baseline.",
+    "metadata": { "type": "contract" }
+  },
+  {
+    "id": "int-c2-02",
+    "client_id": "c2",
+    "channel": "invoice",
+    "timestamp": "2024-07-01T09:00:00Z",
+    "summary": "Invoice #101 Submitted ($8,500 - Net 30)",
+    "content": "Invoice #101 issued for June consulting services ($8,500.00). Due date: July 31, 2024.",
+    "context": "First monthly billing statement issued to Beacon Health.",
+    "metadata": { "type": "invoice", "invoice_num": "101", "amount": "8500" }
+  },
+  {
+    "id": "int-c2-03",
+    "client_id": "c2",
+    "channel": "email",
+    "timestamp": "2024-08-05T14:00:00Z",
+    "summary": "Payment Status Query for Overdue Invoice #101",
+    "content": "Follow-up email sent regarding Invoice #101, which was due July 31. Accounts Payable replied: 'Hi, Dr. Thorne approved this on time, but all vendor disbursements require multi-tier HIPAA compliance verification before treasury release. Payments typically clear approximately 20 days after invoice due date.'",
+    "context": "Accounts Payable explanation of Beacon Health internal disbursement delays.",
+    "metadata": { "type": "payment_query" }
+  },
+  {
+    "id": "int-c2-04",
+    "client_id": "c2",
+    "channel": "invoice",
+    "timestamp": "2024-08-20T16:00:00Z",
+    "summary": "Invoice #101 Payment Remittance Received",
+    "content": "Payment received for Invoice #101 ($8,500.00) on August 20, 2024 (20 days past Net 30 due date).",
+    "context": "Payment clearance confirmation for Invoice #101.",
+    "metadata": { "type": "payment_received", "days_late": "20" }
+  },
+  {
+    "id": "int-c2-05",
+    "client_id": "c2",
+    "channel": "invoice",
+    "timestamp": "2024-09-01T09:00:00Z",
+    "summary": "Invoice #102 Submitted ($8,500 - Net 30)",
+    "content": "Invoice #102 issued for August services ($8,500.00). Due date: October 1, 2024.",
+    "context": "Monthly billing for August sent to Beacon Health.",
+    "metadata": { "type": "invoice", "invoice_num": "102" }
+  },
+  {
+    "id": "int-c2-06",
+    "client_id": "c2",
+    "channel": "invoice",
+    "timestamp": "2024-10-21T11:00:00Z",
+    "summary": "Invoice #102 Payment Remittance Received",
+    "content": "Payment received for Invoice #102 ($8,500.00) on October 21, 2024 (20 days past Net 30 due date).",
+    "context": "Payment confirmation for Invoice #102 confirming steady ~20 day payment delay pattern.",
+    "metadata": { "type": "payment_received", "days_late": "20" }
+  },
+  {
+    "id": "int-c2-07",
+    "client_id": "c2",
+    "channel": "email",
+    "timestamp": "2024-12-05T10:00:00Z",
+    "summary": "Cash Flow Planning Note for Beacon Health Account",
+    "content": "Internal cash flow note: Do not panic on overdue notices for Beacon Health at Net 30. Expect funds systematically around day 50 (~20 days late) due to compliance sign-off routing.",
+    "context": "Account risk assessment noting predictable payment lead time for Beacon Health.",
+    "metadata": { "type": "cash_flow_note" }
+  },
+
+  {
+    "id": "int-c3-01",
+    "client_id": "c3",
+    "channel": "email",
+    "timestamp": "2024-07-02T11:00:00Z",
+    "summary": "E-Commerce Recommendation Engine Scope Agreement",
+    "content": "Elena approved the project statement of work for the product recommendation engine ($12,000 fixed price). Target features: trending items grid and personalized homepage rail.",
+    "context": "Baseline SOW execution for Crestview Retail.",
+    "metadata": { "type": "sow_approval" }
+  },
+  {
+    "id": "int-c3-02",
+    "client_id": "c3",
+    "channel": "chat",
+    "timestamp": "2024-07-18T15:20:00Z",
+    "summary": "Scope Expansion Request #1",
+    "content": "Elena in Slack: 'Hey! Love the homepage rail demo! Since you're already in that codebase, can you also quickly add recommendation widgets to the cart page and checkout summary? Should take like 10 minutes right?'",
+    "context": "First un-scoped feature request from Elena at Crestview Retail.",
+    "metadata": { "type": "scope_request" }
+  },
+  {
+    "id": "int-c3-03",
+    "client_id": "c3",
+    "channel": "email",
+    "timestamp": "2024-07-19T09:30:00Z",
+    "summary": "Scope Change Clarification Sent",
+    "content": "Sent email explaining that cart and checkout recommendations require additional data modeling and testing. Quoted Change Order #1 ($2,200). Elena replied: 'Oh, I thought that was included! Okay let me review.'",
+    "context": "Formal change order response for Crestview scope expansion.",
+    "metadata": { "type": "change_order" }
+  },
+  {
+    "id": "int-c3-04",
+    "client_id": "c3",
+    "channel": "email",
+    "timestamp": "2024-08-10T14:00:00Z",
+    "summary": "Milestone Sign-off and Instant Additional Request",
+    "content": "Elena signed off on Milestone 2. In the same email signature, she wrote: 'Great work! By the way, can we also add real-time inventory counter badges on the recommendations? Super small add!'",
+    "context": "Pattern of approving milestone while simultaneously adding new requests.",
+    "metadata": { "type": "milestone_scope_creep" }
+  },
+  {
+    "id": "int-c3-05",
+    "client_id": "c3",
+    "channel": "call_notes",
+    "timestamp": "2024-09-05T16:00:00Z",
+    "summary": "Scope Boundary Review Call",
+    "content": "Call with Elena. Pointed out that minor requests have accumulated to 15+ hours of out-of-scope work. Reminded her that all feature additions must be estimated and approved via formal change orders before work begins.",
+    "context": "Alignment call establishing boundary on Crestview Retail scope creep.",
+    "metadata": { "type": "scope_boundary" }
+  },
+  {
+    "id": "int-c3-06",
+    "client_id": "c3",
+    "channel": "chat",
+    "timestamp": "2024-10-14T10:15:00Z",
+    "summary": "Holiday Prep Scope Request",
+    "content": "Elena: 'We need promo banner overrides on the recs for Black Friday. Can we slip this in under the maintenance budget?'",
+    "context": "Another informal request attempting to bypass formal change order process.",
+    "metadata": { "type": "scope_request" }
+  },
+  {
+    "id": "int-c3-07",
+    "client_id": "c3",
+    "channel": "email",
+    "timestamp": "2024-11-01T11:00:00Z",
+    "summary": "Change Order Standard Operating Procedure",
+    "content": "Formal agreement signed specifying that any new UI component or API logic request from Crestview will automatically generate a explicit mini-quote before development.",
+    "context": "Formalizing change order protocol for Crestview Retail.",
+    "metadata": { "type": "policy" }
+  },
+
+  {
+    "id": "int-c4-01",
+    "client_id": "c4",
+    "channel": "email",
+    "timestamp": "2024-07-16T10:00:00Z",
+    "summary": "Communication Style Guideline from Marcus",
+    "content": "Marcus Brody email: 'Welcome Marcus team! Important note: I manage 40 publications and get 300 emails a day. Keep all emails under 4 sentences. Lead with a 1-sentence TL;DR and bullet points for action items. I won't read long essays.'",
+    "context": "Explicit brevity preference directive from Horizon Media VP.",
+    "metadata": { "type": "preference", "author": "Marcus Brody" }
+  },
+  {
+    "id": "int-c4-02",
+    "client_id": "c4",
+    "channel": "email",
+    "timestamp": "2024-08-01T15:00:00Z",
+    "summary": "Detailed Status Email Feedback",
+    "content": "Sent a 5-paragraph weekly progress email to Marcus. Marcus replied: 'Didn't read. Please resend as 3 bullet points with what needs my approval.'",
+    "context": "Client pushback on verbose status email.",
+    "metadata": { "type": "pushback" }
+  },
+  {
+    "id": "int-c4-03",
+    "client_id": "c4",
+    "channel": "email",
+    "timestamp": "2024-08-01T15:30:00Z",
+    "summary": "Revised Concise Status Sent",
+    "content": "Resent update: 'TL;DR: Migration on track for Aug 15. Need 1 decision.\n- CMS API key ready: YES\n- Staging URL approved: Action needed by Friday\n- Next release: Aug 15'. Marcus replied in 2 minutes: 'Approved. Thanks!'",
+    "context": "Successful concise communication demonstrating immediate positive response.",
+    "metadata": { "type": "went_well" }
+  },
+  {
+    "id": "int-c4-04",
+    "client_id": "c4",
+    "channel": "email",
+    "timestamp": "2024-09-15T09:00:00Z",
+    "summary": "Content Distribution Pipeline Update",
+    "content": "Sent brief update with 2 bullet points on rss feed syndication. Marcus approved immediately.",
+    "context": "Routine concise status update for Horizon Media.",
+    "metadata": { "type": "went_well" }
+  },
+  {
+    "id": "int-c4-05",
+    "client_id": "c4",
+    "channel": "email",
+    "timestamp": "2024-10-20T14:00:00Z",
+    "summary": "Q4 Strategy Summary Request",
+    "content": "Marcus: 'Send Q4 tech priorities. Max 3 bullets. No attachments.'",
+    "context": "Direct request enforcing strict brevity constraints.",
+    "metadata": { "type": "preference" }
+  },
+  {
+    "id": "int-c4-06",
+    "client_id": "c4",
+    "channel": "email",
+    "timestamp": "2024-12-01T10:00:00Z",
+    "summary": "Contract Renewal Discussion",
+    "content": "Renewal pitch sent in 4 sentences with 3 key deliverables listed. Marcus replied: 'Love the clarity. Sent to procurement for sign-off.'",
+    "context": "Successful contract renewal pitch using concise format.",
+    "metadata": { "type": "went_well" }
+  },
+
+  {
+    "id": "int-c5-01",
+    "client_id": "c5",
+    "channel": "email",
+    "timestamp": "2024-08-02T10:00:00Z",
+    "summary": "Stakeholder Roles & Approval Hierarchy",
+    "content": "Kickoff with Nexus FinTech. Sarah Jenkins (VP Product) emphasized: 'Tom Rivera is Senior PM on daily delivery. However, any budget modifications, feature changes over $1k, or timeline adjustments MUST be approved by me (Sarah) in writing before proceeding.'",
+    "context": "Establishing decision-maker (Sarah) vs influencer (Tom) dynamics.",
+    "metadata": { "type": "roles", "decision_maker": "Sarah Jenkins", "influencer": "Tom Rivera" }
+  },
+  {
+    "id": "int-c5-02",
+    "client_id": "c5",
+    "channel": "chat",
+    "timestamp": "2024-08-25T11:00:00Z",
+    "summary": "Tom Requests Analytics Dashboard Feature",
+    "content": "Tom Rivera in Slack: 'Hey, let me know when you can start adding the custom export module to the reports screen. We really need this for next week's demo!'",
+    "context": "Influencer (Tom) requesting new unapproved feature.",
+    "metadata": { "type": "feature_request", "requester": "Tom Rivera" }
+  },
+  {
+    "id": "int-c5-03",
+    "client_id": "c5",
+    "channel": "email",
+    "timestamp": "2024-08-25T14:00:00Z",
+    "summary": "Role Hierarchy Enforcement",
+    "content": "Emailed Sarah Jenkins cc'ing Tom: 'Tom requested adding a custom export module ($2,500 estimate, +3 days). Seeking your formal approval before updating scope.' Sarah replied: 'Good catch. Hold on export module for now—not in Q3 budget.'",
+    "context": "Verifying request with decision-maker (Sarah) preventing unbudgeted scope.",
+    "metadata": { "type": "approval_check" }
+  },
+  {
+    "id": "int-c5-04",
+    "client_id": "c5",
+    "channel": "chat",
+    "timestamp": "2024-09-18T16:30:00Z",
+    "summary": "Tom Requests UI Redesign",
+    "content": "Tom Rivera: 'Can we switch the tab navigation to a left sidebar navigation?' Replied reminding Tom that UI layout changes require Sarah's sign-off.",
+    "context": "Influencer request handled according to approval protocol.",
+    "metadata": { "type": "feature_request" }
+  },
+  {
+    "id": "int-c5-05",
+    "client_id": "c5",
+    "channel": "email",
+    "timestamp": "2024-10-05T09:00:00Z",
+    "summary": "Q4 Roadmap Review with Sarah",
+    "content": "Meeting with Sarah Jenkins. Sarah confirmed: 'Thanks for keeping Tom's requests routed through me. Tom gets enthusiastic about UI polish, but our focus is compliance audit logs.'",
+    "context": "Decision-maker feedback validating strict governance routing.",
+    "metadata": { "type": "governance" }
+  },
+  {
+    "id": "int-c5-06",
+    "client_id": "c5",
+    "channel": "chat",
+    "timestamp": "2024-11-12T13:15:00Z",
+    "summary": "Tom Requests Webhook Notifications",
+    "content": "Tom Rivera: 'We need webhooks for real-time alerts.' Drafted change request for Sarah's review.",
+    "context": "Handling influencer request with formal change approval path.",
+    "metadata": { "type": "feature_request" }
+  },
+  {
+    "id": "int-c5-07",
+    "client_id": "c5",
+    "channel": "email",
+    "timestamp": "2024-12-10T15:00:00Z",
+    "summary": "Sarah Approves Webhook Scope Order",
+    "content": "Sarah Jenkins emailed approval for Change Order #3 ($1,800 for webhooks). Work authorized.",
+    "context": "Formal authorization from decision-maker.",
+    "metadata": { "type": "approval" }
+  },
+
+  {
+    "id": "int-c6-01",
+    "client_id": "c6",
+    "channel": "email",
+    "timestamp": "2024-08-16T10:00:00Z",
+    "summary": "Initial Kickoff & Original Email Communication Preference",
+    "content": "Kickoff with Dr. Liam Vance (Stellar Labs). Liam noted: 'We are a small startup with tight research grants. Please send all deliverables, invoices, and updates via EMAIL ONLY. We do not check or monitor Slack workspaces.'",
+    "context": "Initial communication preference established: EMAIL ONLY.",
+    "metadata": { "type": "preference", "channel_preference": "email" }
+  },
+  {
+    "id": "int-c6-02",
+    "client_id": "c6",
+    "channel": "email",
+    "timestamp": "2024-09-01T11:00:00Z",
+    "summary": "Budget Sensitivity & Cost Cap Agreement",
+    "content": "Liam requested strict spend monitoring: 'Our total budget for the model evaluation pipeline is strictly capped at $15,000. Please alert us immediately if any milestone approaches 80% of budget.'",
+    "context": "Budget constraint definition for Stellar Labs.",
+    "metadata": { "type": "budget_cap", "amount": "15000" }
+  },
+  {
+    "id": "int-c6-03",
+    "client_id": "c6",
+    "channel": "email",
+    "timestamp": "2024-09-25T14:00:00Z",
+    "summary": "Email Status Report Submission",
+    "content": "Sent detailed email report on dataset evaluation. Liam replied via email with feedback.",
+    "context": "Routine interaction via original email channel.",
+    "metadata": { "type": "status" }
+  },
+  {
+    "id": "int-c6-04",
+    "client_id": "c6",
+    "channel": "chat",
+    "timestamp": "2024-11-15T09:30:00Z",
+    "summary": "CONTRADICTION: Channel Preference Changed to Slack",
+    "content": "Dr. Liam Vance message in Slack (#stellar-dev): 'IMPORTANT UPDATE REGARDING COMMUNICATION: Moving forward, please communicate exclusively on our Slack workspace (#stellar-dev) for all project updates, questions, and drafts. I no longer monitor my email inbox daily and emails will sit unread for weeks.'",
+    "context": "Direct contradiction & update to preference: SLACK EXCLUSIVELY (overrides prior email-only preference).",
+    "metadata": { "type": "preference_change", "old_channel": "email", "new_channel": "slack" }
+  },
+  {
+    "id": "int-c6-05",
+    "client_id": "c6",
+    "channel": "chat",
+    "timestamp": "2024-12-02T10:00:00Z",
+    "summary": "Slack Communication Confirmation",
+    "content": "Posted milestone progress update in Slack #stellar-dev. Liam responded in 15 minutes: 'Thanks! Slack is working much better for us.'",
+    "context": "Confirmation of active communication channel preference.",
+    "metadata": { "type": "went_well" }
+  },
+  {
+    "id": "int-c6-06",
+    "client_id": "c6",
+    "channel": "chat",
+    "timestamp": "2025-01-10T11:00:00Z",
+    "summary": "Budget Review in Slack",
+    "content": "Slack update in #stellar-dev: Total spend to date is $11,800 (78.6% of $15k cap). Liam acknowledged: 'Appreciate the proactive budget warning in Slack. Let's wrap up Phase 1 within remaining budget.'",
+    "context": "Budget review adhering to both current Slack channel and budget sensitivity constraints.",
+    "metadata": { "type": "budget_check" }
+  },
+  {
+    "id": "int-c6-07",
+    "client_id": "c6",
+    "channel": "chat",
+    "timestamp": "2025-02-01T14:20:00Z",
+    "summary": "Phase 1 Completion Announcement in Slack",
+    "content": "Posted Phase 1 delivery summary in Slack #stellar-dev. Final total cost: $14,600 (under $15k cap).",
+    "context": "Final project sign-off via Slack.",
+    "metadata": { "type": "completion" }
+  }
+]

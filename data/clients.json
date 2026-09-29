@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c1",
+    "name": "Apex Dynamics",
+    "industry": "Enterprise Software",
+    "primary_contact": "David Vance (Director of Engineering)",
+    "quirks": "Prefers async communication via email/Slack; explicitly dislikes morning calls before 11:00 AM EST.",
+    "created_at": "2024-06-01T09:00:00Z"
+  },
+  {
+    "id": "c2",
+    "name": "Beacon Health",
+    "industry": "Healthcare Tech",
+    "primary_contact": "Dr. Aris Thorne (Chief Medical Officer) / Accounts Payable",
+    "quirks": "Consistently pays invoices ~20 days after Net 30 due dates due to complex medical compliance approval workflows.",
+    "created_at": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": "c3",
+    "name": "Crestview Retail",
+    "industry": "E-Commerce",
+    "primary_contact": "Elena Rostova (Head of Growth)",
+    "quirks": "Enthusiastically approves project scope and milestone sign-offs, then continuously slips in 'quick minor additions' without expecting additional cost or schedule adjustments.",
+    "created_at": "2024-07-01T09:00:00Z"
+  },
+  {
+    "id": "c4",
+    "name": "Horizon Media",
+    "industry": "Digital Publishing",
+    "primary_contact": "Marcus Brody (Content Operations VP)",
+    "quirks": "Demands ultra-concise communication; ignores long emails; requires TL;DR and short bulleted updates.",
+    "created_at": "2024-07-15T09:00:00Z"
+  },
+  {
+    "id": "c5",
+    "name": "Nexus FinTech",
+    "industry": "Financial Services",
+    "primary_contact": "Sarah Jenkins (VP Product - Decision Maker) & Tom Rivera (Senior PM - Influencer)",
+    "quirks": "Clear split between decision-maker and influencer: Tom frequently requests scope additions, but Sarah holds budget control and final sign-off authority.",
+    "created_at": "2024-08-01T09:00:00Z"
+  },
+  {
+    "id": "c6",
+    "name": "Stellar Labs",
+    "industry": "AI Research",
+    "primary_contact": "Dr. Liam Vance (Founder)",
+    "quirks": "Very budget-sensitive. Changed preferred communication channel mid-project from Email to Slack (direct preference contradiction: early emails insisted on email only, later interaction explicitly stated Slack as sole active channel).",
+    "created_at": "2024-08-15T09:00:00Z"
+  }
+]
