@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c1_apex",
+    "name": "Apex Dynamics",
+    "contact_name": "Sarah Chen",
+    "contact_email": "sarah.chen@apexdynamics.example",
+    "industry": "Enterprise Software",
+    "primary_quirk": "Prefers async communication (Slack/email) and explicitly dislikes calls before 11:00 AM."
+  },
+  {
+    "id": "c2_horizon",
+    "name": "Horizon Retail",
+    "contact_name": "Marcus Vance",
+    "contact_email": "marcus.vance@horizonretail.example",
+    "industry": "E-Commerce",
+    "primary_quirk": "Consistently processes and pays invoices ~20 days after the standard 30-day term."
+  },
+  {
+    "id": "c3_nexus",
+    "name": "Nexus Fintech",
+    "contact_name": "Elena Rostova",
+    "contact_email": "elena.rostova@nexusfintech.example",
+    "industry": "Financial Technology",
+    "primary_quirk": "Decision-maker vs influencer split: Elena Rostova signs off on budget, but Tech Director Dave evaluates and must approve technical specs."
+  },
+  {
+    "id": "c4_catalyst",
+    "name": "Catalyst Media",
+    "contact_name": "Jordan Reed",
+    "contact_email": "jordan.reed@catalystmedia.example",
+    "industry": "Digital Media",
+    "primary_quirk": "Formally approves scope baselines, then routinely tacks on 'quick additional feature requests' mid-sprint."
+  },
+  {
+    "id": "c5_swiftpulse",
+    "name": "SwiftPulse Health",
+    "contact_name": "Dr. Aris Thorne",
+    "contact_email": "aris.thorne@swiftpulse.example",
+    "industry": "Healthcare & Telehealth",
+    "primary_quirk": "Highly budget-sensitive and requires ultra-short bulleted email summaries with zero marketing fluff."
+  },
+  {
+    "id": "c6_vanguard",
+    "name": "Vanguard Logistics",
+    "contact_name": "Liam Vance",
+    "contact_email": "liam.vance@vanguardlogistics.example",
+    "industry": "Supply Chain & Logistics",
+    "primary_quirk": "Changed preferred communication channel mid-project from email to Slack (#vanguard-dev) with a direct preference contradiction."
+  }
+]
