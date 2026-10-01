@@ -1,0 +1,322 @@
+[
+  {
+    "id": "int_001",
+    "client_id": "c1_apex",
+    "type": "email",
+    "timestamp": "2024-01-10T10:15:00Z",
+    "context": "Initial onboarding and schedule constraints discussion",
+    "content": "Hi! Excited to kick off the API integration. Quick note on scheduling: please never schedule calls or syncs before 11:00 AM EST. I do deep work in the morning and prefer async Slack/email updates whenever possible."
+  },
+  {
+    "id": "int_002",
+    "client_id": "c1_apex",
+    "type": "call_note",
+    "timestamp": "2024-02-14T14:00:00Z",
+    "context": "Sprint 1 Review Call",
+    "content": "Met Sarah Chen at 2:00 PM. She reviewed the Auth module demo and gave green light. Reiterated: 'Slack is 10x faster for me than email if you need quick block decisions.'"
+  },
+  {
+    "id": "int_003",
+    "client_id": "c1_apex",
+    "type": "email",
+    "timestamp": "2024-03-20T11:30:00Z",
+    "context": "Morning sync request response",
+    "content": "Thanks for sending over the proposed call slot for 9:30 AM tomorrow. As mentioned before, 9:30 AM is way too early for me. Can we push all calls to after 11:00 AM or handle this via Slack thread?"
+  },
+  {
+    "id": "int_004",
+    "client_id": "c1_apex",
+    "type": "email",
+    "timestamp": "2024-05-12T15:45:00Z",
+    "context": "Architecture milestone signoff",
+    "content": "Architecture doc looks solid. Please proceed with Phase 2 implementation. As long as updates are in #apex-dev channel, no need for weekly calls."
+  },
+  {
+    "id": "int_005",
+    "client_id": "c1_apex",
+    "type": "call_note",
+    "timestamp": "2024-07-08T13:00:00Z",
+    "context": "Q3 Planning meeting",
+    "content": "Meeting at 1:00 PM. Sarah confirmed budget approval for Q3 refactoring. Reminded us to keep standups async in Slack."
+  },
+  {
+    "id": "int_006",
+    "client_id": "c1_apex",
+    "type": "email",
+    "timestamp": "2024-08-22T11:15:00Z",
+    "context": "Staging deployment feedback",
+    "content": "Tested staging environment. Looks great! Let's schedule the final deployment review next Tuesday at 2:00 PM."
+  },
+  {
+    "id": "int_007",
+    "client_id": "c1_apex",
+    "type": "email",
+    "timestamp": "2024-09-10T11:00:00Z",
+    "context": "Maintenance contract extension",
+    "content": "We'd like to extend the maintenance retainer for Q4. Please send over the revised agreement asynchronously."
+  },
+  {
+    "id": "int_008",
+    "client_id": "c2_horizon",
+    "type": "invoice_event",
+    "timestamp": "2024-01-31T00:00:00Z",
+    "context": "Invoice #INV-2024-01 issued with Net-30 terms ($4,500)",
+    "content": "Invoice #INV-2024-01 sent to Marcus Vance for $4,500 due on 2024-03-01."
+  },
+  {
+    "id": "int_009",
+    "client_id": "c2_horizon",
+    "type": "payment_event",
+    "timestamp": "2024-03-21T16:00:00Z",
+    "context": "Payment received for Invoice #INV-2024-01",
+    "content": "Payment of $4,500 received from Horizon Retail. Paid 20 days after the March 1 due date (50 days total from issuance)."
+  },
+  {
+    "id": "int_010",
+    "client_id": "c2_horizon",
+    "type": "invoice_event",
+    "timestamp": "2024-03-31T00:00:00Z",
+    "context": "Invoice #INV-2024-02 issued with Net-30 terms ($6,200)",
+    "content": "Invoice #INV-2024-02 sent to Marcus Vance for $6,200 due on 2024-04-30."
+  },
+  {
+    "id": "int_011",
+    "client_id": "c2_horizon",
+    "type": "payment_event",
+    "timestamp": "2024-05-19T10:30:00Z",
+    "context": "Payment received for Invoice #INV-2024-02",
+    "content": "Payment of $6,200 received from Horizon Retail. Paid 19 days after the April 30 due date."
+  },
+  {
+    "id": "int_012",
+    "client_id": "c2_horizon",
+    "type": "email",
+    "timestamp": "2024-06-05T09:00:00Z",
+    "context": "Payment cycle explanation from Marcus",
+    "content": "Hi! Just following up on accounting procedures. Our corporate treasury runs payout batches twice a month on the 15th and 30th after internal approvals, so our payments typically land about 18-20 days after invoice due dates."
+  },
+  {
+    "id": "int_013",
+    "client_id": "c2_horizon",
+    "type": "invoice_event",
+    "timestamp": "2024-06-30T00:00:00Z",
+    "context": "Invoice #INV-2024-03 issued ($8,000)",
+    "content": "Invoice #INV-2024-03 sent for $8,000 due 2024-07-30."
+  },
+  {
+    "id": "int_014",
+    "client_id": "c2_horizon",
+    "type": "payment_event",
+    "timestamp": "2024-08-18T14:20:00Z",
+    "context": "Payment received for Invoice #INV-2024-03",
+    "content": "Payment of $8,000 received from Horizon Retail on Aug 18 (~19 days past due date)."
+  },
+  {
+    "id": "int_015",
+    "client_id": "c3_nexus",
+    "type": "email",
+    "timestamp": "2024-02-01T11:00:00Z",
+    "context": "Project kickoff stakeholder alignment",
+    "content": "Hi Jules! I am Elena Rostova, VP of Engineering. I manage contract signoffs and budget approvals. However, please note that all technical architecture, schema designs, and code reviews MUST be vetted and approved by Dave (Lead Architect) before coming to me for signature."
+  },
+  {
+    "id": "int_016",
+    "client_id": "c3_nexus",
+    "type": "call_note",
+    "timestamp": "2024-03-10T15:00:00Z",
+    "context": "Technical spec review call with Dave",
+    "content": "Met with Dave (Tech Lead). Dave requested GraphQL instead of REST for the financial reporting API and specified strict payload encryption requirements. Dave approved technical draft v1.2."
+  },
+  {
+    "id": "int_017",
+    "client_id": "c3_nexus",
+    "type": "email",
+    "timestamp": "2024-03-12T09:30:00Z",
+    "context": "Budget signoff email from Elena",
+    "content": "Dave forwarded me the technical spec v1.2 with his blessing. I have signed off on the $25,000 budget for Phase 1. Great job aligning with Dave's team."
+  },
+  {
+    "id": "int_018",
+    "client_id": "c3_nexus",
+    "type": "email",
+    "timestamp": "2024-05-18T14:15:00Z",
+    "context": "Phase 2 scope discussion",
+    "content": "Hi Jules, Elena here. We want to start Phase 2 ($18,000 budget). Please send the technical architecture doc directly to Dave first. Once Dave signs off on tech feasibility, I will execute the contract."
+  },
+  {
+    "id": "int_019",
+    "client_id": "c3_nexus",
+    "type": "call_note",
+    "timestamp": "2024-06-01T11:00:00Z",
+    "context": "Dave's technical review of Phase 2",
+    "content": "Dave flagged concerns about webhooks reliability. Requested retry mechanism with exponential backoff before approval. Spec revised and approved by Dave."
+  },
+  {
+    "id": "int_020",
+    "client_id": "c3_nexus",
+    "type": "email",
+    "timestamp": "2024-08-05T16:00:00Z",
+    "context": "Phase 2 final contract execution",
+    "content": "Elena Rostova signed Phase 2 agreement following Dave's tech review confirmation."
+  },
+  {
+    "id": "int_021",
+    "client_id": "c4_catalyst",
+    "type": "email",
+    "timestamp": "2024-02-10T10:00:00Z",
+    "context": "Baseline SOW approval",
+    "content": "Hey team, Jordan Reed here. Statement of Work for the CMS overhaul ($15,000) is officially approved and signed!"
+  },
+  {
+    "id": "int_022",
+    "client_id": "c4_catalyst",
+    "type": "scope_request",
+    "timestamp": "2024-02-25T11:30:00Z",
+    "context": "Add-on request during Sprint 1",
+    "content": "Hey Jules, quick favor! Since you're building the article editor, can you also add a custom video embed widget and automated thumbnail compressor? Should be a tiny add-on!"
+  },
+  {
+    "id": "int_023",
+    "client_id": "c4_catalyst",
+    "type": "email",
+    "timestamp": "2024-04-15T14:00:00Z",
+    "context": "Sprint 3 baseline signoff",
+    "content": "Sprint 3 baseline scope looks great, let's lock it down!"
+  },
+  {
+    "id": "int_024",
+    "client_id": "c4_catalyst",
+    "type": "scope_request",
+    "timestamp": "2024-04-20T16:45:00Z",
+    "context": "Add-on request during Sprint 3",
+    "content": "Hey! Loved the progress. Could we also throw in multi-language translation export and PDF report generation before Friday? We really need this for marketing."
+  },
+  {
+    "id": "int_025",
+    "client_id": "c4_catalyst",
+    "type": "call_note",
+    "timestamp": "2024-06-10T10:00:00Z",
+    "context": "Scope creep discussion meeting",
+    "content": "Discussed scope creep pattern with Jordan Reed. Reminded Jordan that mid-sprint feature requests require formal change orders or buffer billing."
+  },
+  {
+    "id": "int_026",
+    "client_id": "c4_catalyst",
+    "type": "scope_request",
+    "timestamp": "2024-07-15T13:10:00Z",
+    "context": "Add-on request during Sprint 5",
+    "content": "Jordan here: Can you quickly add custom analytics event tags to all buttons? Just a minor tweak while you're in the code!"
+  },
+  {
+    "id": "int_027",
+    "client_id": "c5_swiftpulse",
+    "type": "email",
+    "timestamp": "2024-01-20T09:00:00Z",
+    "context": "Kickoff and communication style guidelines",
+    "content": "Dr. Aris Thorne here. We operate on tight telehealth venture budgets. Please keep all emails to 3 bullets max, zero promotional intro/outro fluff, and always highlight cost implications first."
+  },
+  {
+    "id": "int_028",
+    "client_id": "c5_swiftpulse",
+    "type": "email",
+    "timestamp": "2024-03-05T10:15:00Z",
+    "context": "Feature cost estimate feedback",
+    "content": "Received your proposal. Please reduce cloud infrastructure scope by 30% to stay under our $5,000 monthly cap. Send brief summary."
+  },
+  {
+    "id": "int_029",
+    "client_id": "c5_swiftpulse",
+    "type": "email",
+    "timestamp": "2024-05-11T08:30:00Z",
+    "context": "Status report preferences reminder",
+    "content": "Your last email was too long. Bullet points only: 1) What was done, 2) Cost variance, 3) Next step. No introductory greetings required."
+  },
+  {
+    "id": "int_030",
+    "client_id": "c5_swiftpulse",
+    "type": "email",
+    "timestamp": "2024-07-20T11:00:00Z",
+    "context": "Budget review",
+    "content": "Q3 budget confirmed at $12,000 max. Any overage requires 7-day prior written approval."
+  },
+  {
+    "id": "int_031",
+    "client_id": "c5_swiftpulse",
+    "type": "email",
+    "timestamp": "2024-09-01T09:45:00Z",
+    "context": "HIPAA compliance audit summary request",
+    "content": "Need 3-bullet summary of HIPAA encryption status and remaining billable hours."
+  },
+  {
+    "id": "int_032",
+    "client_id": "c6_vanguard",
+    "type": "email",
+    "timestamp": "2024-02-01T10:00:00Z",
+    "context": "Initial communication protocol directive",
+    "content": "Hello Jules, Liam Vance here. For all project communications and weekly status reports, please send detailed formal updates via email to liam.vance@vanguardlogistics.example every Monday morning."
+  },
+  {
+    "id": "int_033",
+    "client_id": "c6_vanguard",
+    "type": "email",
+    "timestamp": "2024-03-15T11:00:00Z",
+    "context": "Weekly email status check",
+    "content": "Received the Monday email report. Excellent progress on the fleet tracking integration."
+  },
+  {
+    "id": "int_034",
+    "client_id": "c6_vanguard",
+    "type": "email",
+    "timestamp": "2024-05-10T14:30:00Z",
+    "context": "Channel transition directive (Direct contradiction to earlier preference)",
+    "content": "IMPORTANT CHANNEL CHANGE: Our operations team has migrated entirely to Slack. STOP sending weekly status updates via email! From now on, post all status reports, build notifications, and blocker questions directly into the #vanguard-dev Slack channel. Do not use email for weekly reports anymore."
+  },
+  {
+    "id": "int_035",
+    "client_id": "c6_vanguard",
+    "type": "call_note",
+    "timestamp": "2024-05-20T16:00:00Z",
+    "context": "Slack onboarding sync with Liam",
+    "content": "Confirmed Liam Vance and team are active in #vanguard-dev. Liam reiterated: 'Email is dead for us now; Slack is our primary channel.'"
+  },
+  {
+    "id": "int_036",
+    "client_id": "c6_vanguard",
+    "type": "call_note",
+    "timestamp": "2024-07-12T10:00:00Z",
+    "context": "Mid-year review on Slack",
+    "content": "Slack call with Liam. Discussed warehouse sensor integration. All deliverables on track."
+  },
+  {
+    "id": "int_037",
+    "client_id": "c6_vanguard",
+    "type": "email",
+    "timestamp": "2024-08-30T15:00:00Z",
+    "context": "Emergency escalation channel reminder",
+    "content": "Just a reminder: regular updates belong in #vanguard-dev Slack channel. Email is strictly for formal contract invoices only."
+  },
+  {
+    "id": "int_038",
+    "client_id": "c2_horizon",
+    "type": "invoice_event",
+    "timestamp": "2024-08-31T00:00:00Z",
+    "context": "Invoice #INV-2024-04 issued ($5,000)",
+    "content": "Invoice #INV-2024-04 sent to Marcus Vance for $5,000 due 2024-09-30."
+  },
+  {
+    "id": "int_039",
+    "client_id": "c3_nexus",
+    "type": "email",
+    "timestamp": "2024-09-15T10:00:00Z",
+    "context": "Q4 extension check",
+    "content": "Elena Rostova checking in. Send Dave the technical scope for the Q4 maintenance patch."
+  },
+  {
+    "id": "int_040",
+    "client_id": "c4_catalyst",
+    "type": "email",
+    "timestamp": "2024-09-20T11:00:00Z",
+    "context": "Q4 SOW discussion",
+    "content": "Jordan Reed: Let's draft the Q4 SOW baseline. We'll try to keep additional requests during sprints to a minimum!"
+  }
+]

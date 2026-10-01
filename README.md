@@ -59,17 +59,43 @@ flowchart LR
 - **Observations:** Hindsight consolidates repeated behaviour (for example, "pays about 20 days late") into per-client observations that refine as new evidence arrives.
 - **Feedback loop:** "went well" and "pushback" outcomes are retained, so future drafts learn what works for that client.
 
-## Getting started *(planned)*
+## Getting started
 
 You will need a Hindsight Cloud API key and a Groq API key.
 
 ```bash
 git clone https://github.com/<your-username>/rapport-client-memory.git
 cd rapport-client-memory
-cp .env.example .env    # then fill in HINDSIGHT_API_KEY and GROQ_API_KEY
+cp .env.example .env    # fill in HINDSIGHT_API_KEY and GROQ_API_KEY
 ```
 
-Backend, frontend and seed-script commands will be added here once the first build lands.
+### Installation & Setup
+
+1. Install Python dependencies:
+   ```bash
+   pip install -e .[dev]
+   ```
+
+2. Seed synthetic client history into Hindsight Cloud:
+   ```bash
+   python scripts/seed.py
+   ```
+   *(Or run `python scripts/seed.py --use-fake` for offline testing)*
+
+3. Run smoke test verification for Hindsight tag isolation:
+   ```bash
+   python scripts/smoke_hindsight.py
+   ```
+
+4. Start the FastAPI backend server:
+   ```bash
+   uvicorn backend.app.main:app --reload --port 8000
+   ```
+
+5. Run test suite offline:
+   ```bash
+   pytest
+   ```
 
 ## Demo data
 
